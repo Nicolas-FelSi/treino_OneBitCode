@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(196, 193, 193);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+}
+
+.container__item {
+    /* width: 200px; */
+    background-color: #ffffff;
+    height: 200px;
+    border: 2px solid black;
+    flex-basis: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 {}
+
+.item2 {
+    flex-shrink: 8;
+}
+
+.item3 {}

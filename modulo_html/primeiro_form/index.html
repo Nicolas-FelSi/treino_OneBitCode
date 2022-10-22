@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+
+<body>
+    <h1>Cadastro da liga dos astronautas</h1>
+    <form action="#" method="get">
+        <div>
+            <label for="txtname">Nome: </label>
+            <input type="text" name="name" id="txtname">
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <label for="txtemail">Email: </label>
+            <input type="email" name="email" id="txtemail">
+
+            <label for="txtpass">- Password: </label>
+            <input type="password" name="password" id="txtpass">
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <label>Data de nascimento: </label>
+            <input type="date" name="date">
+
+            <label for="txtfile">- Foto: </label>
+            <input type="file" name="file" id="txtfile">
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <label>Nacionalidade: </label>
+            <select name="nacionalidade">
+                <option value="BR">Brasileiro</option>
+                <option value="CA">Canadense</option>
+                <option value="CN">Chinês</option>
+                <option value="DK">Dinamarquês</option>
+                <option value="FR">Francês</option>
+                <option value="IT">Italiano</option>
+                <option value="MX">Mexicano</option>
+            </select>
+
+            <label>- Gênero: </label>
+            <label for="txtfemale">F</label>
+            <input type="radio" name="gender" id="txtfemale">
+            <label for="txtmale">M</label>
+            <input type="radio" name="gender" id="txtmale">
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <label>Suas principais qualidades:</label>
+            <br>
+            <label for="txtintel">Inteligência</label>
+            <input type="checkbox" name="inteli" id="txtintel">
+            <label for="txtresili">| Resiliência</label>
+            <input type="checkbox" name="resili" id="txtresili">
+            <label for="txtpf">| Preparo físico</label>
+            <input type="checkbox" name="pf" id="txtpf">
+            <label for="txteduc">| Educação</label>
+            <input type="checkbox" name="educ" id="txteduc">
+            <br>
+            <br>
+        </div>
+
+        <div>
+            <textarea name="text" placeholder="Porque você gostaria de ser um austronauta?" cols="30"
+                rows="10"></textarea>
+            <br>
+            <button>Criar</button>
+        </div>
+    </form>
+</body>
+
+</html>

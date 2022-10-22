@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+.container {
+    background-color: rgb(196, 193, 193);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-template-rows: minmax(210px, 100%);
+}
+
+.container__item {
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 10px;
+}
