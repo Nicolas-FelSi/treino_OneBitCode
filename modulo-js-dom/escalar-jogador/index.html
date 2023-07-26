@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escalar jogador</title>
+</head>
+
+<body>
+    <main>
+        <form id="escalarForm">
+            <fieldset>
+                <legend>
+                    <h1>Escalar jogador</h1>
+                </legend>
+                <label for="posJogador">
+                    Posição do jogador:
+                    <input type="text" id="posJogador" placeholder="Posição do jogador" required>
+                </label>
+                <br>
+                <br>
+                <label for="nomeJogador">
+                    Nome do jogador:
+                    <input type="text" id="nomeJogador" placeholder="Nome do jogador" required>
+                </label>
+                <br>
+                <br>
+                <label for="numeroCamisa">
+                    Número da camisa:
+                    <input type="number" id="numeroCamisa" placeholder="Número da camisa" required>
+                </label>
+                <br>
+                <br>
+                <button>Escalar</button>
+            </fieldset>
+        </form>
+
+        <form id="removerForm">
+            <fieldset>
+                <legend>
+                    <h2>Remover jogador</h2>
+                </legend>
+                <label for="numeroCamisa">
+                    Número da camisa:
+                    <input type="number" id="numeroCamisaRemover" placeholder="Número da camisa" required>
+                </label>
+                <br>
+                <br>
+                <button>Remover</button>
+            </fieldset>
+        </form>
+
+        <section id="jogadoresEscalados">
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
